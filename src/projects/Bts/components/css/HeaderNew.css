@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header>nav{
+    display: flex;
+    justify-content: space-between;
+    background-color:#24f2eb;
+    padding: 5px 0px;
+
+}
+header>nav>img{
+    position: relative;
+    left: 20px;
+}
+header>nav>h2{
+    display: inline-block;
+    color: orangered;
+    position: relative;
+    top: 10px;
+}
+header>nav>input{
+    border-radius: 35px;
+    height: 35px;
+    position: relative;
+    top: 10px;
+}
+header>nav>ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 15px;
+    margin-right: 10px;
+    
+}
+header>nav>ul>li  button{
+    
+    border: 1px solid;
+    width: 80px;
+    
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-weight: bolder;
+    
+}

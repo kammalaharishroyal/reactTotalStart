@@ -1,0 +1,23 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.busData{
+
+}
+.numlogo{
+    margin: 5px;
+}
+.numlogo>i,.email>i{
+    
+    font-size: 30px;
+}
+.busData button{
+    padding: 10px 20px;
+    width: 50%;
+    position: relative;
+    left: 20%;
+    top: 20px;
+
+}
